@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#verification{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: rgba(245, 233, 120, 0.658);
+    padding: 70px;
+    margin: 30px 100px;
+}
+#info{
+    margin: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.1rem;
+}
+#info p{
+    display: inline-block;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revesion of js</title>
+    <link rel="stylesheet" href="Revisejs.css">
+</head>
+<body>
+    <h1 class="headline">Welcome to <span>Digital Electric Voting</span> System</h1>
+
+    <div class="loginForm">
+        <div class="adminlogin">
+            <h2 class="head" onclick="showAdmin()">Admin Login</h2>
+            <form  id="vis" action="adminpage.html" class="visibility" onSubmit="return onsub()" >
+                <div class="box" id="admin">
+                    <h6>Admin Id </h6>
+                    <input class="adminInput" id="adminId" type="text" required autocomplete="off">
+                    <h6>Admin Password </h6>
+                    <input class="adminInput" id="adminPassword" type="password" required autocomplete="off">
+                    <p id="pass" style="color: red;"></p>
+                    <input type="submit" >
+                </div>
+            </form>
+        </div>
+
+
+        <div class="userlogin">
+            <h2 class="head" onclick="showUser()">Vooter Login</h2>
+            <form  id="vooterLoginForm"  class="visibility" action ="userInterface.html"  onSubmit="subUsers()">
+                <div class="box" id="user">
+                    <p id="voter" style="color: red;"></p>
+                    <h6>Enter your serial </h6>
+                    <input class="adminInput" id="serial" type="text" required autocomplete="off">
+                    <h6>Name </h6>
+                    <input class="adminInput" id="Uname" type="text" required autocomplete="off">
+                    <h6>Father's Name </h6>
+                    <input class="adminInput" id="FName" type="text" required autocomplete="off">
+                    <h6>Mother's Name </h6>
+                    <input class="adminInput" id="MName" type="text" required autocomplete="off">
+                    <h6>Postal code</h6>
+                    <input class="adminInput" id="Post" type="number" autocomplete="off">
+                    <h6>NID number</h6>
+                    <input class="adminInput" id="nid" type="text" autocomplete="off">
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
+        
+    </div>
+   <script  src="Revisejs.js">
+        
+    </script>
+</body>
+</html>
